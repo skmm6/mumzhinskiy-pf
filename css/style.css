@@ -1,0 +1,49 @@
+
+.nav-menu {
+    margin-top: 40px;
+
+}
+body {
+    background-color: rgb(220, 255, 253);
+    height: 500vh;
+}
+div.co-bl>a {
+    color: #e9e9e9e7;
+}
+
+.container ul {
+    margin-left: auto;
+}
+
+.style-nav-top {
+    background-color: rgb(216, 216, 216);
+}
+.bgc-img-head {
+    background-image: url(../img/pagehead.jpg);
+    height: 100vh;
+}
+.animatio {
+    transition: 500ms ease;
+    opacity: 0;
+}
+.animatio.show {
+    opacity: 1;
+}
+.ani-slide-right {
+    opacity: 0;
+}
+.ani-slide-right.show {
+    opacity: 1;
+}
+.fixsedtop {
+    position: fixed;
+    top: -40px;
+    left: 0;
+    right: 0;
+}
+.posrev {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
